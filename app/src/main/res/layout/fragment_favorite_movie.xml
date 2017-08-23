@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/matgin_5dp"
+        android:layout_marginLeft="@dimen/matgin_5dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:text="Favorite Movie"
+        android:textAlignment="center"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/matgin_10dp"
+        android:id="@+id/lv_favorite_movie">
+
+    </ListView>
+
+</LinearLayout>

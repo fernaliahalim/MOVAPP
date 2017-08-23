@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+    </group>
+
+    <item android:title="What's on">
+        <menu>
+            <item
+                android:id="@+id/nav_most_popular"
+                android:icon="@drawable/ic_menu_most_popular"
+                android:title="Most Popular" />
+            <item
+                android:id="@+id/nav_highest_rated"
+                android:icon="@drawable/ic_menu_highest_rated"
+                android:title="Top Rated" />
+            <item
+                android:id="@+id/nav_favorite"
+                android:icon="@drawable/ic_menu_favorites_black"
+                android:title="Top Rated" />
+        </menu>
+    </item>
+
+</menu>
